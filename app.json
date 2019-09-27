@@ -1,7 +1,7 @@
 {
     "name": "vietnamlogin",
     "description": "HTW webtech project",
-    "repository": "https://github.com/vostreshtw/vh",
+    "repository": "https://github.com/vostreshtw/htwfinal.git",
     "logo": "https://www.svgrepo.com/show/99605/noodles.svg",
     "keywords": ["node", "express", "static"]
   }
