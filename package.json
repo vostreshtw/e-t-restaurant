@@ -1,16 +1,13 @@
-{
+  {
     "name": "vietnamlogin",
     "version": "1.0.0",
-    "description": "WEBTECH SEMESTERAUFGABE",
-    "private": true,
+    "description": "HTW webtech project",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js",
-        "dev": "nodemon app.js",
-        "build": "node build"
+      "start": "node app.js",
+      "dev": "nodemon app.js"
     },
-    "keywords": [],
-    "author": "Vu-Vostres",
+    "author": "Gruppe22",
     "license": "ISC",
     "dependencies": {
         "@hapi/joi": "^16.1.4",
@@ -30,7 +27,17 @@
         "passport": "^0.4.0",
         "passport-local": "^1.0.0"
     },
+    "engines":{
+      "node": "12.11.0"
+    },
     "devDependencies": {
-        "nodemon": "^1.19.2"
-    }
-}
+      "nodemon": "^1.19.2"
+    },
+  
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vostreshtw/vh"
+    },
+    "keywords": ["express", "node"]
+  }
+  
