@@ -4,7 +4,6 @@
         <div id="Uebersicht">
             <div id="Uebersicht-text">
                 <div id="Uebersicht-text-inner">
-                        <p>Hallo <%= name %>!</p>
                     <h1> E & T </h1>
                     <h2> Vietnam ehrlich erleben </h2>
                     <a href="#content1" class="btn" id="Ueber-uns">
@@ -45,13 +44,13 @@
 
             <div class="container">
                 <div class="form-container kontakt-container">
-                    <form action="#">
-                        <h1> Kontaktformular</h1>
+                    <form action="https://formspree.io/etrestaurant.vietnam@gmail.com" method="POST">
+                        <h2> Kontaktformular</h2>
                         <input type="name" placeholder="Name" />
                         <input type="email" placeholder="Email" />
                         <textarea name="nachricht" placeholder="Schreiben Sie uns eine Nachricht..."></textarea>
-                        <a href=# class="btn" id="Ueber-uns">
-                                Senden  </a>
+                        <button class="btn btn-primary" id="Ueber-uns" type="submit">
+                                Senden  </button>
                     </form>
                 </div>
 
