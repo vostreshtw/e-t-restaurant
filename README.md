@@ -1,4 +1,4 @@
-# htwfinal
+# htwfinal - Gruppe 22 - Vietnamesische Speisen
 
 run:
 - npm install
